@@ -1,3 +1,6 @@
+I don't use a screen so I wanted a way to know I was getting GPS date before warwalking.
+I also do not have GPSD installed. Dunno if that matters or not.
+
 Setting up requires getting GPIO's ready.
 
 To get a list of your GPIO's:
