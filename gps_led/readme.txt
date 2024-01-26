@@ -1,6 +1,8 @@
 I don't use a screen so I wanted a way to know I was getting GPS date before warwalking.
 I also do not have GPSD installed. Dunno if that matters or not.
 
+Make sure to use at least a 550 ohm resistor on the positive leg of the LED.
+
 Setting up requires getting GPIO's ready.
 
 To get a list of your GPIO's:
