@@ -1,2 +1,2 @@
-main.plugins.warwalking_trails_kml_single.enabled = true
+main.plugins.warwalking_trails_kml_single.enabled = false
 main.plugins.warwalking_trails_kml_single.kml_path = "/home/pi/"
