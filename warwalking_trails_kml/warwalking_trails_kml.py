@@ -10,7 +10,7 @@ class WarwalkingTrailsKML(plugins.Plugin):
     __version__ = "1.1.0"
     __license__ = "GPL3"
     __description__ = """
-    When enabled will log position based on epoch interval to a KML file.
+    When enabled will log position based on epoch interval (1-2 mins) to a KML file.
     Requires gps plugin enabled.
     """
 
