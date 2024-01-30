@@ -1,6 +1,5 @@
 import logging
 import os
-import json
 from datetime import datetime
 import pwnagotchi
 import pwnagotchi.plugins as plugins
@@ -48,7 +47,7 @@ class WarwalkingTrailsKML(plugins.Plugin):
             if self.gps and self.gps.coordinates:
                 coords = self.gps.coordinates
                 if all([coords.get("Latitude"), coords.get("Longitude")]):
-                    date_time_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+                    date_time_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     kml_filename = os.path.join(self.options['kml_path'], f"Trail-{date_time_str}.kml")
 
                     # Create KML feature
