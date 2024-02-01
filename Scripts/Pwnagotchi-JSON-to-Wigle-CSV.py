@@ -76,6 +76,7 @@ def convert_single_json_to_csv(json_file):
             capabilities,
             formatted_timestamp,
             channel,
+            '2437',
             rssi,
             latitude,
             longitude,
